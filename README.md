@@ -17,7 +17,7 @@ Based on [tacos-terminal-lyrics](https://github.com/tacoproz1/tacos-terminal-lyr
 - `python-librosa` (for accurate word-level timing)
 - `ffmpeg`
 - `pip install pyyaml mutagen syncedlyrics --break-system-packages`
-
+- `sudo pacman -S python-yaml`
 ## Install
 ```bash
 git clone https://github.com/fnful97/spotifyX-tacos-terminal-lyrics
