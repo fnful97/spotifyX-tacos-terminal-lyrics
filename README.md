@@ -40,8 +40,8 @@ lrc-vis --lrc-dir ~/.local/share/lrc-tools/lyrics/processed --wlrc --font block
 
 Lyrics are cached per song and auto-cleaned every 30 minutes. Feel free to edit and improve!
 
-## Contact
-Discord: darkux3
+## original repo
+https://github.com/tacoproz1/tacos-terminal-lyrics
 
 ## License
 MIT
