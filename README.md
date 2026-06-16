@@ -1,7 +1,5 @@
 # spotifyX-tacos-terminal-lyrics
 
-(IT ONLY WORKS WITH BASH)
-
 Terminal lyrics visualizer with word-level sync for Spotify on Linux.
 Based on [tacos-terminal-lyrics](https://github.com/tacoproz1/tacos-terminal-lyrics) by tacoproz1 — MIT License.
 
