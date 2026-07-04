@@ -16,6 +16,7 @@ Based on [tacos-terminal-lyrics](https://github.com/tacoproz1/tacos-terminal-lyr
 - `ffmpeg`
 - `pipx install pyyaml mutagen syncedlyrics --break-system-packages`
 - `sudo pacman -S python-yaml`
+-  `if pipx dosent work you need to install the deps on pacman or AUR`
 ## Install
 ```bash
 git clone https://github.com/fnful97/spotifyX-tacos-terminal-lyrics
