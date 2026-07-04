@@ -128,3 +128,5 @@ lrc-vis --lrc-dir ~/lyrics/processed --wlrc \
 
 MIT
 # tacos-terminal-lyrics
+^^^^
+original readme from the original autor
