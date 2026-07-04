@@ -14,7 +14,7 @@ Based on [tacos-terminal-lyrics](https://github.com/tacoproz1/tacos-terminal-lyr
 - `curl`
 - `python-librosa` (for accurate word-level timing)
 - `ffmpeg`
-- `pip install pyyaml mutagen syncedlyrics --break-system-packages`
+- `pipx install pyyaml mutagen syncedlyrics --break-system-packages`
 - `sudo pacman -S python-yaml`
 ## Install
 ```bash
