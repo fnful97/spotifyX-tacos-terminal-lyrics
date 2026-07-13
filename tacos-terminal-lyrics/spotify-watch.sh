@@ -28,8 +28,8 @@ while true; do
 
         if [ ! -f "$LRC_PROC/$track.wlrc" ]; then
             echo "Fetching lyrics: $track"
-            encoded_artist=$(python3 -c "import urllib.parse; print(urllib.parse.quote('$artist'))")
-            encoded_title=$(python3 -c "import urllib.parse; print(urllib.parse.quote('$title'))")
+            encoded_artist=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$artist")
+            encoded_title=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$title")
             curl -s "https://lrclib.net/api/get?artist_name=${encoded_artist}&track_name=${encoded_title}&duration=${duration_secs}" \
                 -o /tmp/lrc_response.json
 
