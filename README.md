@@ -12,6 +12,7 @@ Based on [tacos-terminal-lyrics](https://github.com/tacoproz1/tacos-terminal-lyr
 - `playerctl`
 - `yt-dlp`
 - `curl`
+- `bc` (used to calculate track duration for lyrics lookup)
 - `python-librosa` (for accurate word-level timing)
 - `ffmpeg`
 - `python-pip` (needed by `setup.sh` to install the Python packages below)
@@ -56,7 +57,6 @@ lrc-vis --lrc-dir ~/.local/share/lrc-tools/lyrics/processed --wlrc --font block
  
 > **Note:** Use the installed `lrc-vis` (in `~/.local/bin`), not the raw script inside the repo folder — the raw copy in the repo isn't wired to find the `lrc_tools` package and will fail with `ModuleNotFoundError`. If `lrc-vis` isn't found, either fix your `$PATH` as above, or run it with the full path: `~/.local/bin/lrc-vis --lrc-dir ...`
 
-> - `bc` (used for duration calculation)
  
 Lyrics are cached per song and auto-cleaned every 30 minutes. Feel free to edit and improve!
  
